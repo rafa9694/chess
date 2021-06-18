@@ -15,9 +15,12 @@ public class Position {
 		this.column = column;
 	}
 
-	@Override
-	public String toString() {
-		return "Position [row=" + row + ", colummn=" + column + "]";
+	public int getRow() {
+		return row;
+	}
+
+	public int getColumn() {
+		return column;
 	}
 	
 
